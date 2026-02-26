@@ -3,14 +3,18 @@
 #include <stdio.h>
 
 /**
- * prints if random number is positive, negative, or zero
+ * main - print if random number is positive or zero or negative
+ *
+ * Return: 0
  */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 
 	if (n > 0)
 		printf("%d is positive\n", n);
