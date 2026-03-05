@@ -6,3 +6,4 @@ void reset_to_98(int *n);
 #endif
 
 void _puts(char *str);
+int _putchar(char c);
