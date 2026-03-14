@@ -1,12 +1,15 @@
 /**
- * _puts_recursion - prints a string followed by a new line
- * @s: string to print
+ * _putchar - writes a character to stdout
+ * @c: character to print
  *
- * Return: nothing
+ * Return: On success 1.
  */
-
 int _putchar(char c);
 
+/**
+ * _puts_recursion - prints a string followed by a new line
+ * @s: string to print
+ */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
